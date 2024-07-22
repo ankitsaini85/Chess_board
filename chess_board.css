@@ -1,0 +1,42 @@
+body{
+    background-image: url(chess.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+}
+#light{
+    background-color: rgb(207, 202, 202);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+  
+}
+#dark{
+    background-color: rgb(49, 49, 49);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+table{
+   
+margin-top: 100px;
+margin-left: 600px;
+    border-spacing: 0; 
+    box-shadow: 1px 0px 50px 2px rgb(255, 255, 255);
+}
+td:hover{
+    transform: scale(1.1);
+    transition: all .7s ease-in;
+   
+   
+ 
+}
+
+
